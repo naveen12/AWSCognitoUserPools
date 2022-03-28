@@ -17,3 +17,24 @@ In Index.html update the below key components (line 48 to 53)
   
 Access the endpoint which is created in AWS Cognito Userpool  
   
+
+  
+  
+  *** Place below JSON in S3 Cors
+  [
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": []
+    }
+]
