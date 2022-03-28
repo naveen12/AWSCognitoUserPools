@@ -36,5 +36,5 @@ Access the endpoint which is created in AWS Cognito Userpool
             "*"
         ],
         "ExposeHeaders": []
-    }
+    } 
 ]
